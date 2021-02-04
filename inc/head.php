@@ -5,7 +5,7 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
 <link rel="shortcut icon" href="/favicon.ico" />
-<link rel="stylesheet" href="../style.css" type="text/css" />
+<link rel="stylesheet" href="/style.css" type="text/css" />
 </head>
 <body>
 <div class="body">

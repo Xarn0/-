@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Вход</title>
-         <link rel="stylesheet" href="style.css">
-</head>
-<body>
+
          <form name="formReg">
                   <div>
                            <input type="name" placeholder="Ваше имя" name="userName" require maxlength="20"><br>
