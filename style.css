@@ -106,3 +106,20 @@ input[type= 'submit']{
 button[name = 'welcom']{
         font-size: 20px;
         margin-left: 88px;
+}
+form[name='formWelcom']{
+        display: none;
+        width: 500px;
+        margin: 0 auto;
+        padding: 0 auto;
+
+}
+form[name = 'formWelcom']>div{
+        width: 250px;
+        margin:0 auto;
+        overflow: hidden;
+}
+button[name = 'Rega']{
+        font-size: 18px;
+        margin-left: 30px;
+}

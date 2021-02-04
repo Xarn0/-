@@ -19,7 +19,14 @@
                   </div>  
 
          </form>
-         
+         <form name='formWelcom'>
+                  <div>
+                           <input type="name" placeholder="Ваше имя" name="userName" require maxlength="20"><br>
+                           <input type="password" placeholder="Ваш пароль" name="password" minlength="8" require ><br>  
+                           <input type="submit" value="Войти"><br> 
+                           <button name="Rega">Зарегистрироваться</button>
+                  </div>         
+         </form>
          <script>
                 let pass =  document.forms[0].elements.password;
                 let pass2 =  document.forms[0].elements.password2;
@@ -39,9 +46,20 @@
                                              } 
                            },100)
                         
-                   })       
-                
-               
+                   })  ;
+                   let welcom = document.forms[0].welcom;
+                   console.log(welcom)
+                   welcom.addEventListener('click',(event)=>{
+                            event.preventDefault();
+                            document.forms[0].style.display = 'none';
+                            document.forms[1].style.display = 'block';
+                   })  
+                   let rega = document.forms[1].Rega;
+                   rega.addEventListener('click',(event)=>{
+                            event.preventDefault();
+                            document.forms[1].style.display = 'none';
+                            document.forms[0].style.display = 'block';
+                   })  
             
 
          </script>
