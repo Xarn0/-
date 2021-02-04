@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<html lang="en">
 <head>
-<title><?echo $set['title'];?></title>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
-<link rel="shortcut icon" href="/favicon.ico" />
-<link rel="stylesheet" href="/style.css" type="text/css" />
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         
+         <link rel="stylesheet" href="http://localhost/-/style.css">
+         <title><?php echo $set['title']; ?></title>
 </head>
-<body>
-<div class="body">
